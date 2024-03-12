@@ -1,0 +1,55 @@
+html {
+  margin: 0;
+}
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px;
+  margin: auto;
+  margin: 100px;
+  width: 85%;
+  text-align: center;
+}
+.button {
+  height: 80px;
+  width: 80px;
+  border: solid black 2px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#Box1 {
+  background-color: aqua;
+}
+#Box2 {
+  background-color: bisque;
+}
+#Box3 {
+  background-color: yellow;
+}
+#Box4 {
+  background-color: chocolate;
+}
+#Box5 {
+  background-color: green;
+}
+#Box6 {
+  background-color: orange;
+}
+#Box7 {
+  background-color: gold;
+}
+ .container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+} 
+
+#reset-game {
+  height: 30px;
+  width: 80px;
+  background: cornflowerblue;
+  color: black;
+  border-radius:5px
+}

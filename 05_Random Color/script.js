@@ -1,30 +1,29 @@
-// // Generate random color
+// Generate random color
 
-// const randomColor = function () {
-//   const hex = "0123456789ABCDEF";
-//   let color = "#";
-//   for (let i = 0; i < 6; i++) {
-//     color += hex[Math.floor(Math.random() * 16)];
-//   }
-//   return color;
-// };
+const randomColor = function () {
+  const hex = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
 
-// let intervalId;
-// const startChangingColor = function () {
-// //     if (!intervalId) {
-// //         intervalId = setInterval(changeColor,1000)  // 1000 miliseconds -> 1second
-//     //    }  
-//     intervalId = setInterval(changeColor,2000)
-//     function changeColor() {
-//         document.body.style.backgroundColor = randomColor();
-//     }
-// };
+let intervalId;
+const startChangingColor = function () {
+//     if (!intervalId) {
+//         intervalId = setInterval(changeColor,1000)  // 1000 miliseconds -> 1second
+    //    }  
+    intervalId = setInterval(changeColor,2000)
+    function changeColor() {
+        document.body.style.backgroundColor = randomColor();
+    }
+};
 
-// const stopChangingColor = function () {
-//     clearInterval(intervalId)
-//     intervalId = null;
-// };
+const stopChangingColor = function () {
+    clearInterval(intervalId)
+    intervalId = null;
+};
 
-// document.querySelector("#start").addEventListener("click", startChangingColor);
-// document.querySelector("#stop").addEventListener("click", stopChangingColor);
-console.log("hello")
+document.querySelector("#start").addEventListener("click", startChangingColor);
+document.querySelector("#stop").addEventListener("click", stopChangingColor);

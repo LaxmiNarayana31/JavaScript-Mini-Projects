@@ -1,0 +1,37 @@
+body {
+    background-color: #212121;
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #display-joke {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(234, 205, 210);
+    color: #f3d2d9;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f3d2d9;
+    color: #212121;
+  }
+  
